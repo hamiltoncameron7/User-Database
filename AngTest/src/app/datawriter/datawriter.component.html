@@ -1,0 +1,5 @@
+<form [formGroup]="form" (ngSubmit)="submitNewUser()">
+    <h2>Add a user here:</h2>
+    <input class="form-control" id="name" placeholder="Name" formControlName="name" type="text">
+    <br><br><button class="button" type="submit" click="refresh()">Submit</button>
+</form>

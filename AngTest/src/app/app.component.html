@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Testing Data</title>
+
+  </head>
+  <body>
+    <app-datareader #appDataReader></app-datareader>
+    <app-datawriter (messageEvent)="appDataReader.getTheData()"></app-datawriter>
+  </body>
+</html>
